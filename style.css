@@ -1,0 +1,16 @@
+body {
+  	font-family: Helvetica, Verdana, Arial;
+  	font-size: 0.8em;
+}
+
+a {
+	font-family: tahoma;
+	font-size: 24px;
+	color: #002bb8; text-decoration:none;
+}
+
+a:hover {
+	font-size: 28px;
+	color: #ffffff; text-decoration:none;
+ 	background-color:#000000;
+}
