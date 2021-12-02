@@ -1,23 +1,23 @@
 <html>
   <head>
     <title>Regular Expressions HTML5</title>
-    <link rel="stylesheet" type="text/css" href="e.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
 <body>
   <h1>HTML5</h1>
   <form name= "frmBasico" action="aftersubmit.html" method="get">
-    DNI: <input type="text" pattern="[0-9]{8}[a-zA-Z]" name="txtDni" size="9" /> <br /> 
-    Correo electrónico: <input type="text" pattern="[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})" name="txtEmail" size="25" /> <br /> 
-    Teléfono: <input type="text" pattern="[6-9]\d{8}" name="txtTelf" size="9" /> <br /> 
-    Código postal: <input type="text" pattern="\d{5}" name="txtCP" size="5" /> <br /> 
-    Fecha de nacimiento <input type="text" pattern="\d\d/\d\d/\d\d\d\d" name="txtFecha" size="10" /> <br /> 
+    DNI (Spanish ID): <input type="text" pattern="[0-9]{8}[a-zA-Z]" name="txtDni" size="9" /> <br /> 
+    Email address: <input type="text" pattern="[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})" name="txtEmail" size="25" /> <br /> 
+    Phone: <input type="text" pattern="[6-9]\d{8}" name="txtTelf" size="9" /> <br /> 
+    Zip Code: <input type="text" pattern="\d{5}" name="txtCP" size="5" /> <br /> 
+    Birth date: <input type="text" pattern="\d\d/\d\d/\d\d\d\d" name="txtFecha" size="10" /> <br /> 
 
 
   
 
      <br />
-         <input type="submit"/> <br />
+         <input type="Submit"/> <br />
   </form>
 </body>
 </html>
